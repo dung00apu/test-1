@@ -1,0 +1,83 @@
+h1,
+h2,
+h3 {
+  margin: 0; }
+  h1.lg-heading,
+  h2.lg-heading,
+  h3.lg-heading {
+    font-size: 6rem; }
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
+
+body {
+  background: #3d3c3e;
+  color: white;
+  line-height: 1.5;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400; }
+
+header {
+  z-index: 0; }
+  header .menu-btn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer; }
+  header .btn-line {
+    width: 20px;
+    height: 3px;
+    margin-bottom: 3px;
+    background: white; }
+  header .menu .menu-nav {
+    position: absolute;
+    right: 10vw;
+    top: 30vh; }
+    header .menu .menu-nav li {
+      list-style: none; }
+      header .menu .menu-nav li a {
+        color: white;
+        text-transform: uppercase;
+        font-size: 2.5rem; }
+  header .menu #menu-img {
+    background: url("../img/img-home.jpg");
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1; }
+    header .menu #menu-img::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background: #3d3c3e;
+      opacity: 0.9; }
+
+main {
+  padding: 4rem; }
+  main .text-sercondady {
+    color: #eece1a; }
+  main h1 {
+    margin-top: 20vh; }
+  main .small-heading {
+    margin-bottom: 2rem;
+    padding: 0.2rem 1rem;
+    background: rgba(74, 73, 75, 0.5);
+    text-transform: capitalize; }
+  main .icon a {
+    color: white;
+    margin-left: 5px; }
+  main .icon a:hover i {
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    color: #eece1a; }
